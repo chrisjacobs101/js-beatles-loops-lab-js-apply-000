@@ -1,6 +1,6 @@
 function theBeatlesPlay (musicians, instruments) {
   
-  var outputArray = [];
+  var beatlesArray = [];
   
   for (var i = 0; i < musicians.length; i++) {
     
@@ -8,6 +8,7 @@ function theBeatlesPlay (musicians, instruments) {
     
   }
   
+  return beatlesArray;
 }
 
 //"John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
